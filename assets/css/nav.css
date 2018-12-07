@@ -1,0 +1,19 @@
+div a{
+    padding: 20px;
+    float: right;
+    text-decoration-line: none;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #797979;
+
+}
+div a:hover{
+    color: #040404;
+}
+div a:active{
+    color: #4aaaa5;
+}
+nav {
+    position: relative;
+    margin-top:1%;
+    margin-right: 20%;
+}

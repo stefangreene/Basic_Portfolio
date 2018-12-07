@@ -1,0 +1,16 @@
+.title-box{
+    position: relative;
+    float: left;
+    margin-left: 20%;
+    padding: 0 0 0 28px;
+    width:260px;
+    height:75px;
+    background-color: #4aaaa5;
+}
+#title-name{
+    position:fixed;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}

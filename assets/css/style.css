@@ -1,67 +1,39 @@
-.header-box-set{
-    position: absolute;
-    background-color: white;
-    border-style: solid;
-    border-color: #cccccc;
-    border: 5px;
-    width: 960px;
-}
 .background{
+    position: relative;
     background-color: beige;
     width: 100%;
-    height: 750px;
+    height: 650px;
 }
-#header{
+#container{
+    position: relative;
+    background-color: white;
+    height: 75px;
     width: 100%;
-    position: absolute;
-    background-color: white;
-    width:100%;
 }
-#title-name{
-    position: absolute;
-    float: left;
-    background-color: #4aaaa5;
-    padding: 0 15px 0 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 17px;
-    line-height: 16px;
+.footer{
+    width: 100%;
+    height: 75px;
+    background-color: grey;
+}
+#footer-line{
+    width: 100%;
+    height: 10px;
+    background-color:#4aaaa5; 
+}
+#copy-footer{
+    text-align: center;
     color: white;
-    width: 250px;
-    height: 60px;
 }
-#button-header{
-    float: right;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #cccccc;
+#name{
+    width:95%;
+    margin:6px 0 0 0;
 }
-.content{
-    position: absolute;
-    background-color: white;
-    padding: 10px;
-    width: 960px;
-    height: 500px;
-    top: 16%;
-    left: 20%;
+#email{
+    width:95%;
+    margin:6px 0 0 0;
 }
-#content-title{
-    position: absolute;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 17px;
-    line-height: 12px;
-    text-align: left;
-    color:#4aaaa5;
-    width: 300px;
-    height: 50px;
-}
-#line{
-    position: absolute;
-    margin: 100px 6px 0 6px;
-    background-color: #cccccc;
-    width: 95%;
-    height: 4px;
-}
-#p-content{
-    margin-top: 200px;
-    left:10%;
-
+#message{
+    width:95%;
+    margin:6px 0 0 0;
+    height: 300px;
 }

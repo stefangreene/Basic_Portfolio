@@ -1,0 +1,96 @@
+.content{
+    position: fixed;
+    margin-left: 20%;
+    margin-top: 30px;
+    width: 960px;
+    background-color: white;
+
+}
+#content-title{
+    position: relative;
+    width: 150px;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    margin-left: 40px;
+    color:#4aaaa5;
+}
+#line{
+    position: relative;
+    margin: 20px 0 0 35px;
+    background-color: #929191;
+    width: 92%;
+    height: 4px;
+}
+#p-content{
+    margin-top:100px;
+    margin-right:60px;
+    margin-left:300px;
+
+
+}
+/*about content*/
+#profile-picture{
+    float: left;
+    margin: 40px 30px 40px 30px;
+}
+
+/*form styles*/
+
+.form-container{
+    margin-left:80px;
+}
+.form-title{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-top: 20px;
+    font-weight: 500;
+}
+#name{
+    width:90%;
+    height: 20px;
+    border:3px;
+    border-style: solid;
+    border-color: #cccccc;
+}
+#email{
+    width:90%;
+    height: 20px;
+    border:3px;
+    border-style: solid;
+    border-color: #cccccc;
+}
+#message{
+    width:90%;
+    height: 200px;
+    border:3px;
+    border-style: solid;
+    border-color: #cccccc;
+}
+#button{
+    background-color:#4aaaa5;
+    margin:20px 0 20px 0;
+    width:75px;
+    height:30px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color:white;
+    font-size: 14px;
+}
+/*portfolio image grid*/
+.pictures{
+
+    left: 10%;
+    margin:26px;
+}
+.picture-space{
+    position: relative;
+    margin:5px;
+}
+.text-block{
+    position: absolute;
+    background-color: #4aaaa5;
+    bottom:30px;
+    width: 175px;
+    height: 40px;
+    z-index: 2;
+
+}

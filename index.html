@@ -3,20 +3,32 @@
 <head>
 <meta charset="UTF-8">
 <title>My Portfolio</title>
-<link rel="stylesheet" href="assets/css/style.css">
+
+<!--<link rel="stylesheet" type="text/css" href="assets/css/reset.css" />-->
+<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/nav.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/content.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/header.css" />
+
+</head>
+
 <body>
-    <section id="header">
-    <div id="header-box-set">
-    <figure id="title-name"><h1>Stefan Greene</h1></figure>
-    <figure id="button-header"><h3>About</h3></figure>
-    <figure id="button-header"><h3>Portfolio</h3></figure>
-    <figure id="button-header"><h3>Contact</h3></figure>
+    <div id ="container">
+        <div class="title-box">
+            <h1 id="title-name"> Stefan Greene</h1></div>
+            <nav>
+                <div><a href="contact.html">Contact</a></div>
+                <div><a href="portfolio.html">Portfolio</a></div>
+                <div id="select"><a href="index.html">About</a></div>
+            </nav>
+        </div>
     </div>
-    </section>
+    
 <div class="background">
     <div class="content">
         <figure id="content-title"><h1>About Me</h1></figure>
         <div id="line"></div>
+        <img id="profile-picture" src="https://placehold.it/200x400" alt="Stefan Greene">
         <p id="p-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
             Ut enim ad minim veniam, quis nostrud exercitation ullamco 
@@ -28,6 +40,9 @@
         </p>
     </div>
 </div>
+<div class="footer">
+    <div id="footer-line"></div>
+    <h4 id="copy-footer">copyright</h4>
+</div>
 </body>
-</head>
 </html>
